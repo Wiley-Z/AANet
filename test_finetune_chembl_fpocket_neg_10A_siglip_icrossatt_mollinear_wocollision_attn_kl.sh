@@ -12,13 +12,13 @@ else
     TASK=$2
 fi
 batch_size=32
-weight_path="savedir/finetune_chembl_fpocket_neg_10A_siglip_icrossatt_mollinear_wocollision_attn_kl/2025-05-15_02-10-52/checkpoint_best.pt"
+weight_path="savedir/checkpoint_best.pt"
 
 # Extract the base directory path without the filename
 base_dir="${weight_path%/*}"  # Remove everything after the last "/"
 
 # Construct results_path by replacing "savedir" with "./test"
-results_path="./test_ft/${base_dir#savedir/}"  # Replace "savedir" with "./test"
+results_path="./test/${base_dir#savedir/}"  # Replace "savedir" with "./test"
 
 echo "Results path: $results_path"
 
