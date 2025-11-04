@@ -31,7 +31,6 @@ tmp_save_dir=$tmp_save_dir/$TIMESTAMP
 tsb_dir=$tsb_dir/$TIMESTAMP
 
 batch_size=32
-batch_size_valid=64
 batch_size_valid=128
 epoch=200
 dropout=0.0
