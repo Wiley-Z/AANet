@@ -1,4 +1,4 @@
-<h1 align="center">AANet: Virtual Screening under Structural Uncertainty<br>via Alignment and Aggregation</h1>
+<h1 align="center">Learning Protein-Ligand Binding in Hyperbolic Space</h1>
 
 <div align="center">
 
