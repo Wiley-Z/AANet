@@ -91,9 +91,21 @@ bash test_finetune_chembl_fpocket_neg_10A_siglip_icrossatt_mollinear_wocollision
 
 Results will be saved in the `./test` directory.
 
+#### Testing the Baseline Model
+
+To reproduce the test results on the baseline DrugCLIP model, you should download the official checkpoint to `savedir/baseline/drugclip/checkpoint_best.pt`, then:
+
+```bash
+bash test_baseline_drugclip.sh <device_id> <TASK>
+```
+
 ## 📈 Performance
 
 AANet achieves state-of-the-art performance on multiple virtual screening benchmarks by effectively handling structural uncertainty in protein pockets.
+
+## 📝 Changelog
+
+- **2026-03-10**: Added support for reproducing baseline DrugCLIP model test results via `test_baseline_drugclip.sh` script (related to issue #2).
 
 ## 📝 Citation
 
