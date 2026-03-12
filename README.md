@@ -103,9 +103,9 @@ bash test_baseline_drugclip.sh <device_id> <TASK>
 
 AANet achieves state-of-the-art performance on multiple virtual screening benchmarks by effectively handling structural uncertainty in protein pockets.
 
-## 📝 Changelog
+## 📋 Changelog
 
-- **2026-03-10**: Added support for reproducing baseline DrugCLIP model test results via `test_baseline_drugclip.sh` script (related to issue #2).
+- **2026-03-10 ~ 2026-03-12**: Added support for reproducing baseline DrugCLIP model test results via `test_baseline_drugclip.sh` script with 6Å pocket inputs (related to issue #2).
 
 ## 📝 Citation
 
