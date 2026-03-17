@@ -5,7 +5,7 @@
 [![arXiv](https://img.shields.io/badge/arXiv-2506.05768-b31b1b.svg)](https://arxiv.org/abs/2506.05768)
 [![NeurIPS 2025](https://img.shields.io/badge/NeurIPS-2025-blue.svg)](https://neurips.cc/virtual/2025/poster/117847)
 [![OpenReview](https://img.shields.io/badge/OpenReview-TUh4GDposM-8c1b13.svg)](https://openreview.net/forum?id=TUh4GDposM)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 </div>
 
@@ -123,7 +123,9 @@ If you find this work useful in your research, please cite:
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
+
+Model Weights and Output Results are licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). These may only be used for non-commercial purposes.
 
 **Copyright (c) 2025 Institute for AI Industry Research (AIR), Tsinghua University**
 
